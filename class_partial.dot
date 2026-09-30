@@ -1,0 +1,12 @@
+digraph G {
+graph [rankdir=TB, bgcolor="white", pad=0.2, nodesep=0.25, ranksep=0.35];
+node [shape=box, style="rounded,filled", fontname="Times New Roman", fontsize=11, color="#2F5597", fillcolor="#EAF2F8", margin="0.12,0.08"];
+edge [fontname="Times New Roman", fontsize=9, color="#555555"];
+
+OrderCalculator [
+    shape=record,
+    fillcolor="#F4CCCC",
+    color="#C00000",
+    label="{OrderCalculator|- MAX_DISCOUNT : double = 30.0\n- VAT_RATE : double = 20.0|+ main(args : String[]) : void\n+ isValid(quantity : int, price : double, discount : double) : boolean\n+ calculateBase(quantity : int, price : double) : double\n+ applyDiscount(basePrice : double, discountPercent : double) : double\n+ calculateVat(discountedPrice : double, vatRate : double) : double\n+ calculateTotal(quantity : int, price : double, discountPercent : double, vatRate : double) : double}"
+];
+}
