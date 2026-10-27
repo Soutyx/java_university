@@ -1,0 +1,18 @@
+classDiagram
+class TimesheetAnalyzer {
+  +int DAYS = 5
+  +int MAX_HOURS = 30
+  +int DAY_NORM = 8
+  +int WEEK_NORM = 40
+  +parseHours(String) int[]
+  +total(int[]) int
+  +average(int[]) double
+  +overtimeDays(int[]) int
+  +weeklyOvertime(int[]) int
+}
+class Main
+class SelfCheck
+class BoundaryTests
+Main ..> TimesheetAnalyzer
+SelfCheck ..> TimesheetAnalyzer
+BoundaryTests ..> TimesheetAnalyzer

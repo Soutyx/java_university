@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1350" height="830" viewBox="0 0 1350 830">
+<rect width="100%" height="100%" fill="white"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#456276"/></marker></defs>
+<text x="35" y="47" font-family="Arial" font-size="30" fill="#18354d">№5. Классы итогового проекта</text>
+<polyline points="470,180.0 570,275.0" fill="none" stroke="#456276" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="528.0" y="221.5" font-family="Arial" font-size="18" fill="#234354">использует</text>
+<polyline points="470,580.0 570,275.0" fill="none" stroke="#456276" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="528.0" y="421.5" font-family="Arial" font-size="18" fill="#234354">проверяет</text>
+<polyline points="910.0,590 910.0,440" fill="none" stroke="#456276" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="918.0" y="509.0" font-family="Arial" font-size="18" fill="#234354">проверяет</text>
+<rect x="50" y="110" width="420" height="140" rx="14" fill="#eaf1f7" stroke="#456276" stroke-width="2"/>
+<text x="260.0" y="173.0" text-anchor="middle" font-family="Arial" font-size="22" fill="#19364b">Main</text>
+<text x="260.0" y="202.0" text-anchor="middle" font-family="Arial" font-size="22" fill="#19364b">консоль и чтение файла</text>
+<rect x="570" y="110" width="680" height="330" rx="14" fill="#eaf1f7" stroke="#456276" stroke-width="2"/>
+<text x="910.0" y="239.0" text-anchor="middle" font-family="Arial" font-size="22" fill="#19364b">TimesheetAnalyzer</text>
+<text x="910.0" y="268.0" text-anchor="middle" font-family="Arial" font-size="22" fill="#19364b">MAX_HOURS = 30</text>
+<text x="910.0" y="297.0" text-anchor="middle" font-family="Arial" font-size="22" fill="#19364b">parseHours; total; average</text>
+<text x="910.0" y="326.0" text-anchor="middle" font-family="Arial" font-size="22" fill="#19364b">overtimeDays; weeklyOvertime</text>
+<rect x="50" y="510" width="420" height="140" rx="14" fill="#eaf1f7" stroke="#456276" stroke-width="2"/>
+<text x="260.0" y="573.0" text-anchor="middle" font-family="Arial" font-size="22" fill="#19364b">SelfCheck</text>
+<text x="260.0" y="602.0" text-anchor="middle" font-family="Arial" font-size="22" fill="#19364b">проверки исходного архива</text>
+<rect x="570" y="590" width="680" height="140" rx="14" fill="#eaf1f7" stroke="#456276" stroke-width="2"/>
+<text x="910.0" y="653.0" text-anchor="middle" font-family="Arial" font-size="22" fill="#19364b">BoundaryTests</text>
+<text x="910.0" y="682.0" text-anchor="middle" font-family="Arial" font-size="22" fill="#19364b">23 проверки</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1620" height="1320" viewBox="0 0 1620 1320">
+<rect width="100%" height="100%" fill="white"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#456276"/></marker></defs>
+<text x="35" y="47" font-family="Arial" font-size="30" fill="#18354d">№5. Разбор и расчёт табеля</text>
+<polyline points="650.0,175 650.0,220" fill="none" stroke="#456276" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="650.0,315 650.0,370" fill="none" stroke="#456276" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="650.0,485 650.0,540" fill="none" stroke="#456276" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="658.0" y="506.5" font-family="Arial" font-size="18" fill="#234354">да</text>
+<polyline points="900,427.5 1030,445.0" fill="none" stroke="#456276" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="973.0" y="430.25" font-family="Arial" font-size="18" fill="#234354">нет</text>
+<polyline points="650.0,615 650.0,670" fill="none" stroke="#456276" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="650.0,760 650.0,810" fill="none" stroke="#456276" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="658.0" y="779.0" font-family="Arial" font-size="18" fill="#234354">да</text>
+<polyline points="900,715.0 1030,745.0" fill="none" stroke="#456276" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="973.0" y="724.0" font-family="Arial" font-size="18" fill="#234354">нет</text>
+<polyline points="650.0,925 650.0,980" fill="none" stroke="#456276" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="650.0,1080 650.0,1140" fill="none" stroke="#456276" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="658.0" y="1104.0" font-family="Arial" font-size="18" fill="#234354">да</text>
+<polyline points="900,1030 970,1030 970,445 1030,445" fill="none" stroke="#456276" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="943.0" y="1024.0" font-family="Arial" font-size="18" fill="#234354">нет</text>
+<polyline points="400,1185 210,1185 210,715 400,715" fill="none" stroke="#456276" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="313.0" y="1179.0" font-family="Arial" font-size="18" fill="#234354">цикл</text>
+<polyline points="1285.0,820 1285.0,890" fill="none" stroke="#456276" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="1285.0,1000 1285.0,1070" fill="none" stroke="#456276" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="400" y="100" width="500" height="75" rx="14" fill="#e6f1e2" stroke="#456276" stroke-width="2"/>
+<text x="650.0" y="145.0" text-anchor="middle" font-family="Arial" font-size="22" fill="#19364b">Начало</text>
+<rect x="400" y="220" width="500" height="95" rx="14" fill="#eef4f7" stroke="#456276" stroke-width="2"/>
+<text x="650.0" y="275.0" text-anchor="middle" font-family="Arial" font-size="22" fill="#19364b">Получить строку часов</text>
+<polygon points="650.0,370 900,427.5 650.0,485 400,427.5" fill="#fff2ce" stroke="#456276" stroke-width="2"/>
+<text x="650.0" y="424.5" text-anchor="middle" font-family="Arial" font-size="22" fill="#19364b">Строка не null и ровно 5</text>
+<text x="650.0" y="449.5" text-anchor="middle" font-family="Arial" font-size="22" fill="#19364b">полей?</text>
+<rect x="400" y="540" width="500" height="75" rx="14" fill="#eef4f7" stroke="#456276" stroke-width="2"/>
+<text x="650.0" y="585.0" text-anchor="middle" font-family="Arial" font-size="22" fill="#19364b">Создать int[5]; i = 0</text>
+<polygon points="650.0,670 900,715.0 650.0,760 400,715.0" fill="#fff2ce" stroke="#456276" stroke-width="2"/>
+<text x="650.0" y="724.5" text-anchor="middle" font-family="Arial" font-size="22" fill="#19364b">i меньше 5?</text>
+<rect x="400" y="810" width="500" height="115" rx="14" fill="#eef4f7" stroke="#456276" stroke-width="2"/>
+<text x="650.0" y="875.0" text-anchor="middle" font-family="Arial" font-size="22" fill="#19364b">trim; проверить формат; Integer.parseInt</text>
+<polygon points="650.0,980 900,1030.0 650.0,1080 400,1030.0" fill="#fff2ce" stroke="#456276" stroke-width="2"/>
+<text x="650.0" y="1027.0" text-anchor="middle" font-family="Arial" font-size="22" fill="#19364b">Число распознано и</text>
+<text x="650.0" y="1052.0" text-anchor="middle" font-family="Arial" font-size="22" fill="#19364b">находится в 0..30?</text>
+<rect x="400" y="1140" width="500" height="90" rx="14" fill="#eef4f7" stroke="#456276" stroke-width="2"/>
+<text x="650.0" y="1192.5" text-anchor="middle" font-family="Arial" font-size="22" fill="#19364b">hours[i] = число; i++</text>
+<rect x="1030" y="670" width="510" height="150" rx="14" fill="#eef4f7" stroke="#456276" stroke-width="2"/>
+<text x="1285.0" y="738.0" text-anchor="middle" font-family="Arial" font-size="22" fill="#19364b">total; average; overtimeDays;</text>
+<text x="1285.0" y="767.0" text-anchor="middle" font-family="Arial" font-size="22" fill="#19364b">weeklyOvertime</text>
+<rect x="1030" y="890" width="510" height="110" rx="14" fill="#eef4f7" stroke="#456276" stroke-width="2"/>
+<text x="1285.0" y="938.0" text-anchor="middle" font-family="Arial" font-size="22" fill="#19364b">Вывести сумму, среднее, дни и часы</text>
+<text x="1285.0" y="967.0" text-anchor="middle" font-family="Arial" font-size="22" fill="#19364b">переработки</text>
+<rect x="1030" y="1070" width="510" height="75" rx="14" fill="#e6f1e2" stroke="#456276" stroke-width="2"/>
+<text x="1285.0" y="1115.0" text-anchor="middle" font-family="Arial" font-size="22" fill="#19364b">Завершение</text>
+<rect x="1030" y="370" width="510" height="150" rx="14" fill="#fce7e5" stroke="#456276" stroke-width="2"/>
+<text x="1285.0" y="438.0" text-anchor="middle" font-family="Arial" font-size="22" fill="#19364b">Ошибка: число полей или позиция неверного</text>
+<text x="1285.0" y="467.0" text-anchor="middle" font-family="Arial" font-size="22" fill="#19364b">дня; расчёта нет</text>
+</svg>
